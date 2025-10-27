@@ -8,7 +8,7 @@ export class ProductPage {
     constructor(page: Page) {
         this.page = page;
         this.availabilityInfo = page.locator('div[class*="quantity--info"] span');
-        this.buyButton = page.locator('button:has-text("Buy Now")');
+        this.buyButton = page.locator('button[class*="buy-now"]')
     }
 
     async getAvailabilityText() {
