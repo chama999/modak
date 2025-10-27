@@ -4,7 +4,7 @@ This project is an automation framework built with Playwright and TypeScript for
 
 ## Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js
 - npm (comes with Node.js)
 - A modern web browser (Chrome, Firefox, or Safari)
 
@@ -103,23 +103,3 @@ Currently implemented test scenarios:
    - Goes to the second page of results
    - Verifies if the second item has stock available
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
-
-## Troubleshooting
-
-If you encounter any issues:
-
-1. Make sure all dependencies are installed correctly
-2. Verify that Playwright browsers are installed
-3. Check if you have the latest version of Node.js
-4. Clear the browser cache if you experience stale test data
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
