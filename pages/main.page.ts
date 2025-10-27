@@ -50,7 +50,7 @@ export class MainPage {
     async scrollToBottomUntilPaginationIsVisible(pageNumber: number) {
         // do while link to 2nd page is visible
         let attemps = 0;
-        while (!await this.getPageLinkLocator(pageNumber).isVisible() && attemps >= 99) {
+        while (!await this.getPageLinkLocator(pageNumber).isVisible() && attemps <= 99) {
             await this.page.evaluate(() => {
                 window.scrollTo(0, document.body.scrollHeight);
             });
